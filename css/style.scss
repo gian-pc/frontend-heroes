@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  background-color: #00669f;
+  height: 101px;
+  padding: 28px;
+  color: white;
+}
+h3 {
+  height: 38px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding: 10px 27px;
+  background-color: #d1891c;
+}
+
+.cards {
+  display: flex;
+  margin: 153px 32px;
+  justify-content: space-around;
+
+  .card {
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 629px;
+    text-align: center;
+    position: relative;
+
+    .card-head {
+      position: relative;
+
+      .card-img-fondo {
+        height: 194px;
+        width: 300px;
+      }
+
+      .card-corazon {
+        position: absolute;
+        top: 14px;
+        left: 21px;
+      }
+    }
+    .card-avatar {
+      position: absolute;
+      border-radius: 50%;
+      margin-top: -60px;
+      margin-left: -60px;
+      width: 120px;
+      height: 120px;
+      z-index: 1;
+    }
+    .container {
+      height: 336px;
+
+      .card-titulo {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        margin-top: 70px;
+        text-align: center;
+      }
+
+      .card-texto {
+        font-family: "Roboto", sans-serif;
+        padding: 15px;
+        font-size: 16px;
+        text-align: left;
+      }
+
+      .btn-texto {
+        background-color: #00669f;
+        width: 128.78px;
+        height: 48.52px;
+        color: #f3f3f3;
+        border: #00669f;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+footer {
+  position: relative;
+  display: flex;
+  height: 162px;
+  background-color: #00669f;
+  align-items: center;
+  justify-content: center;
+
+  .footer-texto {
+    color: #fff9f9;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  footer img {
+    position: absolute;
+    width: 248px;
+    height: 67px;
+    flex-shrink: 0;
+    margin-left: 1500px;
+  }
+}
